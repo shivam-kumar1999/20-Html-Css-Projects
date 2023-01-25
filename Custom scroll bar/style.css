@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0c459ad9;
+}
+
+*{
+    text-align: justify;
+    padding: 10px 20px;
+    line-height: 20px;
+    color:#0c459ad9; ;
+}
+
+.box{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: wheat;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.box::-webkit-scrollbar{
+    width: 10px;
+}
+.box::-webkit-scrollbar-thumb{
+    background-color: #03193ad9;
+    border-radius: 10px;
+}
