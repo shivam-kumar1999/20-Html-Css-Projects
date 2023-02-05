@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 30px;
+    
+    
+
+}
+
+body{
+    background-color: #EEEEEE;
+}
+.cardholder{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.card1{
+    width: 31%;
+    height: 500px;
+    box-shadow:   2px 2px 2px 2px #557B83;
+    border-radius: 10px;
+    justify-content: center;
+   
+}
+.card1pric{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 45px;
+    
+}
+.card1text{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    
+}
+
+
+.card2{
+    width: 31%;
+    height: 500px;
+    box-shadow:   2px 2px 2px 2px #557B83;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.card2pric{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 45px;
+    
+}
+
+.card2text{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    
+}
+
+.card3{
+    width: 31%;
+    height: 500px;
+    box-shadow:   2px 2px 2px 2px #557B83;
+    border-radius: 10px;
+    justify-content: center;
+}
+.card3pric{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 45px;
+    
+}
+.card3text{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 50px;
+    
+}
+
+.card1:hover{
+    color: white;
+    transform: scale(1.06);
+    transition: 0.4s ease;
+    box-shadow:   2px 2px 2px 2px gray;
+    background-color: #645CBB;
+}
+.card2:hover{
+    color: white;
+    transform: scale(1.06);
+    transition: 0.4s ease;
+    background-color:#645CBB;
+    box-shadow:   2px 2px 2px 2px gray;
+}
+.card3:hover{
+    color: white;
+    transform: scale(1.06);
+    transition: 0.4s ease;
+    background-color: #645CBB;
+    box-shadow:   0 2px 2px 2px gray;
+}
