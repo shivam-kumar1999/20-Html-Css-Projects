@@ -1,4 +1,4 @@
-..Yubo Clone------ https://yubo-clonee.netlify.app/
+Yubo Clone------ https://yubo-clonee.netlify.app/
 
 Chair selling Page----- https://chair-selling-page.netlify.app/
 
